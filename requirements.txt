@@ -1,0 +1,15 @@
+fastapi>=0.111
+uvicorn[standard]>=0.29
+pydantic>=2.7
+python-multipart>=0.0.9
+
+# Fine-tuned LLM inference stack. The app runs fine without these installed
+# or without model/lora-adapter/ present - backend/llm.py detects that and
+# backend/engine.py falls back to the deterministic grounded template
+# engine automatically. They're included here so the deployed Space serves
+# real fine-tuned suggestions once you've trained + committed the adapter
+# (see README.md "Training the model").
+transformers>=4.44
+peft>=0.11
+sentencepiece>=0.2.0
+accelerate>=0.30
