@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Industrial Automation Project Suggester</title>
+<link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="app-header">
+      <div class="brand">
+        <span class="brand-mark">IA</span>
+        <div class="brand-text">
+          <h1>Industrial Automation Project Suggester</h1>
+          <p>Tell it your skill level, hardware, and time budget - get scoped mechatronics/automation project ideas.</p>
+        </div>
+      </div>
+      <div class="engine-badge" id="engineBadge">checking engine&hellip;</div>
+    </header>
+
+    <main class="layout">
+      <section class="chat-panel">
+        <div class="chat-log" id="chatLog"></div>
+
+        <form class="chat-input-row" id="chatForm">
+          <div id="inputSlot" class="input-slot"></div>
+        </form>
+      </section>
+
+      <section class="results-panel" id="resultsPanel">
+        <div class="results-empty" id="resultsEmpty">
+          <p>Your suggested projects will show up here once you finish answering.</p>
+        </div>
+        <div class="results-list" id="resultsList"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
