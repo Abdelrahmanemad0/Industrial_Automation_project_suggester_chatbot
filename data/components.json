@@ -1,0 +1,53 @@
+{
+  "microcontrollers": [
+    {"id": "arduino_uno", "name": "Arduino Uno", "aliases": ["arduino", "uno", "arduino uno r3"]},
+    {"id": "arduino_mega", "name": "Arduino Mega 2560", "aliases": ["mega", "arduino mega"]},
+    {"id": "arduino_nano", "name": "Arduino Nano", "aliases": ["nano"]},
+    {"id": "esp32", "name": "ESP32 Dev Board", "aliases": ["esp 32", "esp32 devkit"]},
+    {"id": "esp8266", "name": "ESP8266 (NodeMCU)", "aliases": ["nodemcu", "esp 8266"]},
+    {"id": "raspberry_pi", "name": "Raspberry Pi (any model 3/4/5)", "aliases": ["raspberry pi", "rpi", "pi 4", "pi 5"]},
+    {"id": "plc_basic", "name": "Entry-level PLC (e.g. Siemens LOGO!/Click PLC)", "aliases": ["plc", "logo plc", "click plc"]}
+  ],
+  "sensors": [
+    {"id": "ultrasonic_hcsr04", "name": "Ultrasonic Distance Sensor (HC-SR04)", "aliases": ["ultrasonic sensor", "hc-sr04", "hcsr04", "distance sensor"]},
+    {"id": "ir_sensor", "name": "IR Obstacle/Proximity Sensor", "aliases": ["ir sensor", "infrared sensor"]},
+    {"id": "pir_sensor", "name": "PIR Motion Sensor", "aliases": ["pir", "motion sensor"]},
+    {"id": "ldr_sensor", "name": "Light Dependent Resistor (LDR)", "aliases": ["ldr", "light sensor"]},
+    {"id": "dht22_temp_humidity", "name": "DHT22/DHT11 Temperature & Humidity Sensor", "aliases": ["dht22", "dht11", "humidity sensor"]},
+    {"id": "ds18b20_temp", "name": "DS18B20 Waterproof Temperature Probe", "aliases": ["ds18b20", "temperature probe"]},
+    {"id": "mpu6050_imu", "name": "MPU6050 IMU (Accelerometer + Gyroscope)", "aliases": ["mpu6050", "imu", "gyroscope", "accelerometer"]},
+    {"id": "load_cell_hx711", "name": "Load Cell + HX711 Amplifier", "aliases": ["load cell", "hx711", "weight sensor"]},
+    {"id": "current_sensor_acs712", "name": "ACS712 Current Sensor", "aliases": ["acs712", "current sensor"]},
+    {"id": "gas_sensor_mq2", "name": "MQ-2 Gas/Smoke Sensor", "aliases": ["mq2", "gas sensor", "smoke sensor"]},
+    {"id": "ph_sensor", "name": "Analog pH Sensor Probe", "aliases": ["ph sensor", "ph probe"]},
+    {"id": "water_flow_sensor", "name": "Water Flow Sensor (YF-S201)", "aliases": ["flow sensor", "yf-s201"]},
+    {"id": "rfid_rc522", "name": "RFID Reader/Writer (RC522)", "aliases": ["rfid", "rc522"]},
+    {"id": "camera_module", "name": "Camera Module (ESP32-CAM or Pi Camera)", "aliases": ["camera", "esp32-cam", "pi camera"]},
+    {"id": "limit_switch", "name": "Limit Switch / Microswitch", "aliases": ["limit switch", "microswitch", "end stop"]},
+    {"id": "rotary_encoder", "name": "Rotary Encoder", "aliases": ["encoder", "rotary encoder"]},
+    {"id": "pressure_sensor_bmp280", "name": "BMP280 Pressure/Altitude Sensor", "aliases": ["bmp280", "pressure sensor"]}
+  ],
+  "actuators": [
+    {"id": "servo_motor_sg90", "name": "SG90 Micro Servo Motor", "aliases": ["servo", "sg90", "servo motor"]},
+    {"id": "dc_motor", "name": "Brushed DC Motor", "aliases": ["dc motor"]},
+    {"id": "stepper_motor_28byj48", "name": "28BYJ-48 Stepper Motor + ULN2003 Driver", "aliases": ["stepper", "28byj-48", "small stepper"]},
+    {"id": "stepper_nema17", "name": "NEMA17 Stepper Motor", "aliases": ["nema17", "nema 17"]},
+    {"id": "stepper_driver_a4988", "name": "A4988/DRV8825 Stepper Driver", "aliases": ["a4988", "drv8825", "stepper driver"]},
+    {"id": "motor_driver_l298n", "name": "L298N Motor Driver", "aliases": ["l298n", "motor driver", "h-bridge"]},
+    {"id": "relay_module", "name": "Relay Module (1/2/4/8 channel)", "aliases": ["relay", "relay module"]},
+    {"id": "solenoid_valve", "name": "12V Solenoid Valve", "aliases": ["solenoid valve", "solenoid"]},
+    {"id": "buzzer", "name": "Piezo Buzzer", "aliases": ["buzzer"]}
+  ],
+  "display_comm": [
+    {"id": "lcd_i2c_16x2", "name": "16x2 LCD with I2C backpack", "aliases": ["lcd", "16x2 lcd", "i2c lcd"]},
+    {"id": "oled_ssd1306", "name": "OLED Display (SSD1306)", "aliases": ["oled", "ssd1306"]},
+    {"id": "bluetooth_hc05", "name": "HC-05 Bluetooth Module", "aliases": ["hc-05", "bluetooth module"]},
+    {"id": "lora_module", "name": "LoRa Module (SX1278/RFM95)", "aliases": ["lora", "sx1278", "rfm95"]}
+  ],
+  "misc": [
+    {"id": "breadboard", "name": "Breadboard + Jumper Wires", "aliases": ["breadboard", "jumper wires"]},
+    {"id": "power_supply_12v", "name": "12V DC Power Supply", "aliases": ["power supply", "12v adapter"]},
+    {"id": "conveyor_belt_kit", "name": "Small Conveyor Belt Kit", "aliases": ["conveyor", "conveyor belt"]},
+    {"id": "robotic_arm_kit_diy", "name": "DIY Robotic Arm Kit (servo-based)", "aliases": ["robotic arm", "robot arm kit"]}
+  ]
+}
